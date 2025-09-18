@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#middle-nav-bar{
+    display: flex;
+}
+
+#middle-nav-bar li,
+#left-nav-bar li,
+#right-nav-bar li{
+    list-style-type: none;
+}
+
+#middle-nav-bar li a,
+#left-nav-bar li a,
+#right-nav-bar li a{
+    color: black;
+    margin-left: 1em;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#left-nav-bar li a{
+    font-size: 24px;
+}
+
+#left-nav-bar li a span{
+    color: red;
+}
+
+.under-nav-bar{
+    display: flex;
+    gap: 0.5em;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+#image-one{
+    width: 20px;
+    color: white;
+}
+
+#one{
+    font-size: 15px;
+    font-weight: 30px;
+    color: white;
+}
+
+.under-left-container,
+.under-middle-container,
+.under-right-container{
+    display: flex;
+    gap: 0.5em;
+    
+}
+
+.container{
+    background-image: url("../images/banner-image-org.png");
+    height: 70vh;
+    background-size: cover;                  
+    background-position: center;         
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .overlay{
+    height: 70vh;
+    opacity: 0.3;
+    width: 1920px;
+    background:linear-gradient(to bottom, black);
+    position: absolute;
+}
+
+.container .text{
+    z-index: 2;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container .text h1{
+    margin: 0px;
+}
+
+.container .text span{
+    font-size: 20px;
+    letter-spacing: 18px;
+    margin-top: 0px;
+    color: rgb(214, 19, 19);
+}
+
+.container .text .link a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    border: 1px solid white;
+}
+
+.container .text .link{
+    margin-top: 2em;
+}
+
+.footer{
+    background-color: black;
+    margin: 0px;
+}
+
+.catalog{
+    display: flex;
+    justify-content: center;
+    gap: 3.5em;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#title{
+    color: rgb(214, 19, 19);
+}
+
+#footer-inner-ul li{
+    color: white;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#footer-inner-ul p{
+    font-size: 24px;
+}
+
+.footer hr{
+    color: white;
+}
+
+.footer-logo p{
+    color: white;
+    font-size: 35px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
