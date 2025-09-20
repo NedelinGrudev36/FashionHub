@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Catalog</title>
+    <title>Document</title>
 </head>
-
 <body>
     <div class="wrapper">
         <nav class="nav-bar">
@@ -16,7 +14,7 @@
             </ul>
             <ul id="middle-nav-bar">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Catalog</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Collections</a></li>
                 <li><a href="#">FAQ</a></li>
@@ -25,52 +23,39 @@
                 <li><a href="#">Contacts</a></li>
             </ul>
         </nav>
-            <div class="catalog-items">
-                <ul>
-                    <li id="catalog-title">Tops</li>
-                    <li><a href="inner-catalog-item.html">Oversized T-shirts</a></li>
-                    <li><a href="#">Graphic Tees</a></li>
-                    <li><a href="#">Longsleeves</a></li>
-                    <li><a href="#">Hoodies</a></li>
-                    <li><a href="#">Crewnecks</a></li>
-                    <li><a href="#">Flannel Shirts</a></li>
-                    <li><a href="#">Jerseys</a></li>
-                </ul>
-                <ul>
-                    <li id="catalog-title">Bottoms</li>
-                    <li><a href="#">Cargo Pants</a></li>
-                    <li><a href="#">Baggy Jeans</a></li>
-                    <li><a href="#">Joggers</a></li>
-                    <li><a href="#">Track Pants</a></li>
-                    <li><a href="#">Shorts</a></li>
-                </ul>
-                <ul>
-                    <li id="catalog-title">Outerwear</li>
-                    <li><a href="#">Bomber Jackets</a></li>
-                    <li><a href="#">Puffer Jackets</a></li>
-                    <li><a href="#">Windbreakers</a></li>
-                    <li><a href="#">Varsity Jackets</a></li>
-                    <li><a href="#">Denim Jackets</a></li>
-                </ul>
-                <ul>
-                    <li id="catalog-title">Sneakers</li>
-                    <li><a href="#">Skate Shoes</a></li>
-                    <li><a href="#">Chunky Sneakers</a></li>
-                    <li><a href="#">High-tops</a></li>
-                    <li><a href="#">Slides</a></li>
-                </ul>
-                <ul>
-                    <li id="catalog-title">Accessories</li>
-                    <li><a href="#">Caps</a></li>
-                    <li><a href="#">Beanies</a></li>
-                    <li><a href="#">Crossbody Bags</a></li>
-                    <li><a href="#">Backpacks</a></li>
-                    <li><a href="#">Chains</a></li>
-                    <li><a href="#">Rings</a></li>
-                    <li><a href="#">Bracelets</a></li>
-                    <li><a href="#">Socks</a></li>
-                </ul>
+        <div class="product-item">
+            <div class="product">
+                <div class="image">
+                    <img src="images/Oversized_T-shirts_product_page.webp" alt="Oversized T-shirts">
+                </div>
+                <div class="discription">
+                    <h3>Oversized T-shirts</h3>
+                    <p class="price">$49.90</p>
+                    <p>Color: Black</p>
+                    <p>Size:</p><br>
+                    <div class="size">
+                        <a href="#">XXS</a>
+                        <a href="#">XS</a>
+                        <a href="#">S</a>
+                        <a href="#">M</a>
+                        <a href="#">L</a>
+                        <a href="#">XL</a>
+                    </div>
+                    <a href="#" id="ruler"> <img src="icons/ruler-solid-full.svg" alt=""> Size Guide</a>
+                    <ul class="discount-text">
+                        <li>50% Off Archive Sales. Discount applied in cart.</li>
+                    </ul>
+                    <div class="btn">
+                        <a href="#" id="minus-plus">−</a>
+                        <a href="#" id="count">1</a>
+                        <a href="#" id="minus-plus">+</a>
+                        <a href="#" id="size-btn">select size</a>
+                    </div>
+                    <h2> <img src="icons/pen-solid-full.svg" alt=""> Description</h2>
+                    <p id="d-discription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, est! Ducimus pariatur <br> nobis aspernatur incidunt voluptatem laborum quia fugit similique <br> earum veniam sunt amet voluptatibus, blanditiis laudantium quaerat adipisci odio.</p>
+                </div>
             </div>
+        </div>
         <footer class="footer">
             <div class="catalog">
                 <ul id="footer-inner-ul">
@@ -124,5 +109,4 @@
         </footer>
     </div>
 </body>
-
 </html>

@@ -181,4 +181,131 @@ body{
     font-size: 18px;
 }
 
+/*inner-catalog-item*/
 
+.product{
+    display: flex;
+    justify-content: center;
+    
+}
+
+ .product-item {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;             
+}
+
+.product .image {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.product .image img {
+    height: 700px;
+    width: 500px;   
+    margin-right: 2em;
+    border: 1px solid black; 
+}
+
+.discription{
+    width: 50%;
+}
+
+.discription h3{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.discription .price{
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: red;
+}
+
+.discription p:nth-child(3){
+    font-size: 22px;
+}
+
+.discription p:nth-child(4){
+    font-size: 22px;
+    margin: 0px;
+}
+
+.discription .size{
+    display: flex;
+    gap: 0.5em;
+}
+
+.discription .size a{
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+#ruler{
+    display: flex;
+    gap: 0.4em;
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+#ruler img{
+    width: 25px;
+}
+
+.discount-text li{
+    font-size: 20px;
+    margin-bottom: 1.2em;
+}
+
+.discription .btn{
+    display: flex;
+    gap: 0.5em;
+}
+
+.discription .btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.discription .btn #minus-plus{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.discription .btn #count{
+    padding: 10px 40px;
+}
+
+.discription .btn #size-btn{
+    padding: 10px 100px;
+    border: 1px solid black;
+    font-size: 23px;
+    background-color: black;
+    color: white;
+}
+
+.discription .btn #size-btn:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.discription h2{
+    display: flex;
+    font-size: 33px;
+}
+
+.discription h2 img{
+    width: 28px;
+}
+
+.discription #d-discription{
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0px;
+}
