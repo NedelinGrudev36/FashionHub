@@ -165,7 +165,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     gap: 3em;
-    height: 70vh;
 }
 
 .catalog-items ul li{
@@ -179,6 +178,11 @@ body{
 
 .catalog-items ul li a{
     font-size: 18px;
+}
+
+.catalogg .image img{
+    width: 1900px;
+    
 }
 
 /*inner-catalog-item*/
