@@ -313,3 +313,77 @@ body{
     line-height: 1.4;
     margin: 0px;
 }
+
+/*FAQ styles*/
+
+.header-faq-title{
+    background-image: url('/images/background-image-faqs-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain; 
+    background-size: 100% 100%; 
+    /* background-color: rgb(31, 26, 26); */
+    height: 100px;
+}
+
+.header-faq-title h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.random-btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.random-btn a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    padding: 1em 2em;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.random-btn a:hover{
+    color: black;
+    background-color:white;
+}
+
+.option{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.option h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text-icon h4{
+    margin-left: 2em;
+}
+
+.text-icon img{
+    margin-right: 2em;
+}
+
+.option .text-icon h4{
+    font-size: 20px;
+}
+
+.option .text-icon img{
+    width: 20px;
+}
+
+.option .text-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
