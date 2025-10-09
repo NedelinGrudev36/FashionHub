@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacts</title>
 </head>
+
 <body>
     <div class="wrapper">
         <nav class="nav-bar">
@@ -23,55 +25,24 @@
                 <li><a href="contacts.html">Contacts</a></li>
             </ul>
         </nav>
-        <div class="header-faq-title">
-            <h1>FAQS</h1>
-        </div>
-        <div class="random-btn">
-            <a href="#">WEB ORDER SHIPPING</a>
-            <a href="#">GENERAL ORDER QUERIES</a>
-            <a href="#">PAYMENT</a>
-            <a href="#">PROBLEMS WITH MY ORDER</a>
-            <a href="#">PRODUCT INFORMATION</a>
-            <a href="#">THE TAP YARD</a>
-            <a href="#">TOURS, EVENTS & TRADE</a>
-        </div>
-        <div class="option">
-            <h1>WEB ORDER SHIPPING</h1>
-            <div class="text-icon">
-                <h4>WHAT SHIPPING SERVICE DO YOU USE?</h4>
-                <img src="icons/arrows-down.svg" alt="arrows-down">
+        <div class="contact-form-page">
+            <div class="page-container">
+                <div class="contact-container">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" placeholder="Kevin Nguyen" required>
+
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" placeholder="example@email.com" required>
+
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+                        <button type="submit">Send Your Message</button>
+                    </form>
+                </div>
             </div>
-            <hr>
-            <div class="text-icon">
-                <h4>WHEN WILL MY ORDER ARRIVE?</h4>
-                <img src="icons/arrows-down.svg" alt="arrows-down">
-            </div>
-            <hr>
-            <div class="text-icon">
-                <h4>DO YOU OFFER LOCAL COLLECTION?</h4>
-                <img src="icons/arrows-down.svg" alt="arrows-down">
-            </div>
-            <hr>
-            <div class="text-icon">
-                <h4>WHEN CAN I PICK UP MY CLICK AND COLLECT ORDER?</h4>
-                <img src="icons/arrows-down.svg" alt="arrows-down">
-            </div>
-            <hr>
-            <div class="text-icon">
-                <h4>HOW MUCH IS SHIPPING?</h4>
-                <img src="icons/arrows-down.svg" alt="arrows-down">
-            </div>
-            <hr>
-            <div class="text-icon">
-                <h4>HOW CAN I TRACK MY DELIVERY?</h4>
-                <img src="icons/arrows-down.svg" alt="arrows-down">
-            </div>
-            <hr>
-            <div class="text-icon">
-                <h4>DO YOU DELIVER OVERSEAS?</h4>
-                <img src="icons/arrows-down.svg" alt="arrows-down">
-            </div>
-            <hr>
         </div>
         <footer class="footer">
             <div class="catalog">
@@ -126,4 +97,5 @@
         </footer>
     </div>
 </body>
+
 </html>
