@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .wrapper{
@@ -317,7 +318,7 @@ body{
 /*FAQ styles*/
 
 .header-faq-title{
-    background-image: url('/images/background-image-faqs-2.jpg');
+    background-image: url('/FashionHub/images/background-image-faqs-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-size: contain; 
@@ -573,10 +574,4 @@ button:hover {
 }
 
 /*collection*/
-
-
-
-
-
-
 
