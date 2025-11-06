@@ -157,7 +157,7 @@ body {
 .main-container .New-Arrivals-Title .New-Arrivals-products .na-product h3,
 .main-container .Featured-Products-Title .Featured-Products .fp-product h3,
 .main-container .Trending-Now-Title .Trending-Now-Products .tn-product h3 {
-    font-size: 22px;
+    font-size: 21px;
     margin: 5px 0 0 0.5em;
     /*top right bottom left*/
 }
@@ -234,10 +234,15 @@ body {
 
 /*Catalog Style*/
 
+.catalog{
+    background-color: #f5f5f5;
+}
+
 .catalog-items {
     display: flex;
     justify-content: space-evenly;
     gap: 3em;
+    
 }
 
 .catalog-items ul li {
@@ -246,16 +251,27 @@ body {
 }
 
 #catalog-title {
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 .catalog-items ul li a {
-    font-size: 18px;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
 }
 
 .catalogg .image img {
     width: 1900px;
 
+}
+
+#tops-image-under-categories,
+#bottoms-image-under-categories,
+#outewear-image-under-categories,
+#shoes-image-under-categories,
+#accessories-image-under-categories{
+    width: 200px;
 }
 
 /*inner-catalog-item*/
