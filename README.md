@@ -72,7 +72,7 @@ FashionHub е модерен, изчистен и стилен streetwear сай
 
 **Project:** FashionHub  
 **Author:** (Nedelin Grudev)  
-**GitHub:** ([линк към профила ти](https://github.com/NedelinGrudev36))
+**GitHub:** ([NedeliGrudev36](https://github.com/NedelinGrudev36))
 
 ---
 
