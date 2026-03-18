@@ -40,6 +40,12 @@ body {
     font-size: 21px;
 }
 
+#anony-profile-icon a img{
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
 #left-nav-bar li a {
     font-size: 25px;
 }
@@ -746,3 +752,6 @@ button:hover {
     transform: translateY(-2px);
     opacity: 0.9;
 }
+
+
+
