@@ -7,8 +7,8 @@
         <div class="catalog-items">
             <ul>
                 <li id="catalog-title">Tops</li>
-                <img id="tops-image-under-categories" src="images/tops-image-catalog.jpg" alt="">
-                <li><a href="catalog-item.html">Oversized T-shirts</a></li>
+                <img id="tops-image-under-categories" src="../images/tops-image-catalog.jpg" alt="">
+                <li><a href="catalog-item.php">Oversized T-shirts</a></li>
                 <li><a href="#">Graphic Tees</a></li>
                 <li><a href="#">Longsleeves</a></li>
                 <li><a href="#">Hoodies</a></li>
@@ -18,7 +18,7 @@
             </ul>
             <ul>
                 <li id="catalog-title">Bottoms</li>
-                <img id="bottoms-image-under-categories" src="images/bottoms-image-under-categories.jpg" alt="">
+                <img id="bottoms-image-under-categories" src="../images/bottoms-image-under-categories.jpg" alt="">
                 <li><a href="#">Cargo Pants</a></li>
                 <li><a href="#">Baggy Jeans</a></li>
                 <li><a href="#">Joggers</a></li>
@@ -27,7 +27,7 @@
             </ul>
             <ul>
                 <li id="catalog-title">Outerwear</li>
-                <img id="outewear-image-under-categories" src="images/outewear-image-under-categories.webp" alt="">
+                <img id="outewear-image-under-categories" src="../images/outewear-image-under-categories.webp" alt="">
                 <li><a href="#">Bomber Jackets</a></li>
                 <li><a href="#">Puffer Jackets</a></li>
                 <li><a href="#">Windbreakers</a></li>
@@ -36,7 +36,7 @@
             </ul>
             <ul>
                 <li id="catalog-title">Sneakers</li>
-                <img id="shoes-image-under-categories" src="images/shoes-image.webp" alt="">
+                <img id="shoes-image-under-categories" src="../images/shoes-image.webp" alt="">
                 <li><a href="#">Skate Shoes</a></li>
                 <li><a href="#">Chunky Sneakers</a></li>
                 <li><a href="#">High-tops</a></li>
@@ -44,7 +44,7 @@
             </ul>
             <ul>
                 <li id="catalog-title">Accessories</li>
-                <img id="accessories-image-under-categories" src="images/Accessories-image.jpg" alt="">
+                <img id="accessories-image-under-categories" src="../images/Accessories-image.jpg" alt="">
                 <li><a href="#">Caps</a></li>
                 <li><a href="#">Beanies</a></li>
                 <li><a href="#">Crossbody Bags</a></li>

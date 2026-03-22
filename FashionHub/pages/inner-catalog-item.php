@@ -6,7 +6,7 @@
     <div class="product-item">
         <div class="product">
             <div class="image">
-                <img src="images/Oversized_T-shirts_product_page.webp" alt="Oversized T-shirts">
+                <img src="../images/Oversized_T-shirts_product_page.webp" alt="Oversized T-shirts">
             </div>
             <div class="discription">
                 <h3>Oversized T-shirts</h3>
@@ -21,7 +21,7 @@
                     <a href="#">L</a>
                     <a href="#">XL</a>
                 </div>
-                <a href="#" id="ruler"> <img src="icons/ruler-solid-full.svg" alt=""> Size Guide</a>
+                <a href="#" id="ruler"> <img src="../icons/ruler-solid-full.svg" alt=""> Size Guide</a>
                 <ul class="discount-text">
                     <li>50% Off Archive Sales. Discount applied in cart.</li>
                 </ul>
@@ -31,7 +31,7 @@
                     <a href="#" id="minus-plus">+</a>
                     <a href="#" id="size-btn">select size</a>
                 </div>
-                <h2> <img src="icons/pen-solid-full.svg" alt=""> Description</h2>
+                <h2> <img src="../icons/pen-solid-full.svg" alt=""> Description</h2>
                 <p id="d-discription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, est! Ducimus
                     pariatur <br> nobis aspernatur incidunt voluptatem laborum quia fugit similique <br> earum veniam
                     sunt amet voluptatibus, blanditiis laudantium quaerat adipisci odio.</p>

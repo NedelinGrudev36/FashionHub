@@ -19,37 +19,37 @@
         <h1>WEB ORDER SHIPPING</h1>
         <div class="text-icon">
             <h4>WHAT SHIPPING SERVICE DO YOU USE?</h4>
-            <img src="icons/arrows-down.svg" alt="arrows-down">
+            <img src="../icons/arrows-down.svg" alt="arrows-down">
         </div>
         <hr>
         <div class="text-icon">
             <h4>WHEN WILL MY ORDER ARRIVE?</h4>
-            <img src="icons/arrows-down.svg" alt="arrows-down">
+            <img src="../icons/arrows-down.svg" alt="arrows-down">
         </div>
         <hr>
         <div class="text-icon">
             <h4>DO YOU OFFER LOCAL COLLECTION?</h4>
-            <img src="icons/arrows-down.svg" alt="arrows-down">
+            <img src="../icons/arrows-down.svg" alt="arrows-down">
         </div>
         <hr>
         <div class="text-icon">
             <h4>WHEN CAN I PICK UP MY CLICK AND COLLECT ORDER?</h4>
-            <img src="icons/arrows-down.svg" alt="arrows-down">
+            <img src="../icons/arrows-down.svg" alt="arrows-down">
         </div>
         <hr>
         <div class="text-icon">
             <h4>HOW MUCH IS SHIPPING?</h4>
-            <img src="icons/arrows-down.svg" alt="arrows-down">
+            <img src="../icons/arrows-down.svg" alt="arrows-down">
         </div>
         <hr>
         <div class="text-icon">
             <h4>HOW CAN I TRACK MY DELIVERY?</h4>
-            <img src="icons/arrows-down.svg" alt="arrows-down">
+            <img src="../icons/arrows-down.svg" alt="arrows-down">
         </div>
         <hr>
         <div class="text-icon">
             <h4>DO YOU DELIVER OVERSEAS?</h4>
-            <img src="icons/arrows-down.svg" alt="arrows-down">
+            <img src="../icons/arrows-down.svg" alt="arrows-down">
         </div>
         <hr>
     </div>
