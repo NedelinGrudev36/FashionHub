@@ -1,49 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Contacts</title>
-</head>
-
-<body>
-    <div class="wrapper">
-        <nav class="nav-bar">
-            <ul id="left-nav-bar">
-                <li><a href="index.html">Fashion<span>Hub</span></a></li>
-            </ul>
-            <ul id="middle-nav-bar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="catalog.html">Catalog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="FAQ.html">FAQ</a></li>
-            </ul>
-            <ul id="right-nav-bar">
-                <li><a href="contacts.html">Contacts</a></li>
-            </ul>
-        </nav>
-        <div class="contact-form-page">
-            <div class="page-container">
-                <div class="contact-container">
-                    <h2>Contact Us</h2>
-                    <form>
-                        <label for="name">NAME</label>
-                        <input type="text" id="name" placeholder="Kevin Nguyen" required>
-
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" placeholder="example@email.com" required>
-
-                        <label for="message">MESSAGE</label>
-                        <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
-
-                        <button type="submit">Send Your Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <footer class="footer">
+<footer class="footer">
             <div class="footer-container">
                 <div class="footer-col">
                     <h2 class="footer-logo">FashionHub</h2>
@@ -93,7 +48,5 @@
                 </div>
             </div>
         </footer>
-    </div>
-</body>
-
+        </body>
 </html>
