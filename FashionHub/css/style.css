@@ -37,17 +37,25 @@ body {
     margin-left: 1em;
     text-decoration: none;
     color: white;
-    font-size: 21px;
-}
-
-#anony-profile-icon a img{
-    width: 40px;
-    border: 1px solid black;
-    border-radius: 50%;
+    font-size: 23px;
 }
 
 #left-nav-bar li a {
     font-size: 25px;
+}
+
+#right-nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0px;
+}
+
+.profile a img{
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0px;
 }
 
 #left-nav-bar li a span {
@@ -753,5 +761,68 @@ button:hover {
     opacity: 0.9;
 }
 
+/*LOGIN*/
+
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+}
+
+/* CARD */
+.auth-box {
+    background: #1a1a1a;
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+.auth-box h2 {
+    color: white;
+}
+
+.auth-sub {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+.auth-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #222;
+    border: none;
+    color: white;
+}
+
+/* BUTTON */
+.auth-box button {
+    width: 100%;
+    padding: 12px;
+    background: red;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.auth-box button:hover {
+    background: white;
+    color: black;
+}
+
+/* LINKS */
+.auth-box p {
+    margin-top: 15px;
+    color: #aaa;
+}
+
+.auth-box a {
+    color: red;
+}
 
 

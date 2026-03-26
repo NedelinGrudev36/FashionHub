@@ -10,5 +10,6 @@
     </ul>
     <ul id="right-nav-bar">
         <li><a href="contacts.php">Contacts</a></li>
+        <li class="profile"><a href="login.php"><img src="../images/anonymous.avif" alt=""></a></li>
     </ul>
 </nav>
