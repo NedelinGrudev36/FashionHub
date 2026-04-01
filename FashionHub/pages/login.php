@@ -6,11 +6,11 @@
         <h2>Login</h2>
         <p class="auth-sub">Welcome back</p>
 
-        <form>
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
+        <form method="POST" action="../process/login-process.php">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
 
-            <button>Login</button>
+            <button type="submit" name="login">Login</button>
 
             <p>Don't have account? 
                 <a href="register.php">Register</a>
