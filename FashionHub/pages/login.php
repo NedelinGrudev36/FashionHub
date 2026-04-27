@@ -1,21 +1,21 @@
 <?php
-header("Location: index.php");
 include '../includes/init.php';
 $errorMessage = NULL;
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $email = $_POST['email'];
     $password = $_POST['password'];
-
+    
     $query = "SELECT * FROM users WHERE email='" . $email . "' AND password='" . $password . "'";
-
+    
     $result = $mysqli->query($query);
     if ($row = $result->fetch_assoc()) {
         $_SESSION['user_id'] = $row['id'];
         $_SESSION['username'] = $row['username'];
         $_SESSION['role'] = $row['role'];
-
         
+        
+        header("Location: index.php");
         exit;
     } else {
         $errorMessage = "<p>Невалидни потребителско име и/или парола!</p>";

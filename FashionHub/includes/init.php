@@ -1,6 +1,12 @@
 <?php
-session_start();
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 $mysqli = new mysqli('localhost', 'root', '', 'fashionhub'); 
 $mysqli->set_charset('utf8'); 
- define("homepage", "home");
-?>
+
+if (!defined('homepage')) {
+    define("homepage", "home");
+}

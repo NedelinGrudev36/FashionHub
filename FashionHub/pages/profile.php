@@ -1,6 +1,5 @@
 <?php
 include '../includes/init.php';
-include '../includes/auth.php';
 
 $user_id = $_SESSION['user_id'];
 

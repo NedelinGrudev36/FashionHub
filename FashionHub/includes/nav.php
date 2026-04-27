@@ -10,6 +10,12 @@
     </ul>
     <ul id="right-nav-bar">
         <li><a href="contacts.php">Contacts</a></li>
-        <li class="profile"><a href="login.php"><img src="../images/anonymous.avif" alt=""></a></li>
+        <li class="profile">
+            <?php if (isset($_SESSION['user_id'])): ?>
+                <a href="../logout.php">Logout</a>
+            <?php else: ?>
+                <a href="login.php">Login</a>
+            <?php endif; ?>
+        </li>
     </ul>
 </nav>
